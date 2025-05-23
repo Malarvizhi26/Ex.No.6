@@ -10,7 +10,7 @@ Write and implement Python code that integrates with multiple AI tools to automa
 Experiment the persona pattern as a programmer for any specific applications related with your interesting area. 
 Generate the outoput using more than one AI tool and based on the code generation analyse and discussing that. 
 
-## 🎯 Objective
+## Objective
 To write and implement Python code that interacts with multiple AI tools (such as OpenAI's ChatGPT, Anthropic's Claude, Google Gemini, and Microsoft Copilot) using their respective APIs. The goal is to automate:
 - Submitting a common prompt
 - Comparing the returned outputs
@@ -18,18 +18,18 @@ To write and implement Python code that interacts with multiple AI tools (such a
 
 ---
 
-## ⚙️ Use Case
+##  Use Case
 **Healthcare Diagnostics**: The system will automate the analysis of patient symptoms and generate diagnostic insights by interacting with multiple AI platforms, enabling healthcare professionals to make informed decisions more efficiently.
 
 ---
 
-# 🔍 AI Tools Required:
+#  AI Tools Required:
 
 ## CHATGPT
 ## CLAUDE
 ## GEMINI
 
-## 📌 Algorithm Overview
+## Algorithm Overview
 
 ### **Step-by-Step Algorithm for Multi-AI Tool Integration**
 
@@ -63,7 +63,7 @@ To write and implement Python code that interacts with multiple AI tools (such a
 
 ---
 
-## 🧪 Prompt Types
+## Prompt Types
 
 - **Straightforward Prompt**: A simple query asking for diagnosis and treatment based on provided symptoms.
   
@@ -71,7 +71,7 @@ To write and implement Python code that interacts with multiple AI tools (such a
   
 - **Missing Word Prompt**: A prompt with an incomplete sentence for the AI to complete.
 
-## 📤 Example Queries & Responses
+## Example Queries & Responses
 
 ### 1. **Straightforward Prompt**
 **Prompt:**  
@@ -117,7 +117,7 @@ To write and implement Python code that interacts with multiple AI tools (such a
 
 ----
 
-## 🔧 Code Implementation
+## Code Implementation
 
 ### **Python Code Example for Integrating with Multiple AI Tools**
 
@@ -234,7 +234,7 @@ print(gemini_response)
     response = requests.post(url, json=payload, headers=headers)
     return response.json().get('text', '')
 
-## 📊 Evaluation
+## Evaluation
 
 The Python code evaluates the responses from **ChatGPT**, **Claude**, and **Gemini** based on the following metrics:
 
@@ -271,7 +271,7 @@ df_comparison = pd.DataFrame(evaluation_data)
 print(df_comparison)
 ```
 
-## 📊 Result Presentation
+## Result Presentation
 
 After executing the code, the results are displayed in a tabular format, comparing **ChatGPT**, **Claude**, and **Gemini** based on their performance across the evaluation metrics.
 
